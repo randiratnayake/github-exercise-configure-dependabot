@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository == 'githubtraining/exercise-configure-dependabot'
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
       - uses: gaurav-nelson/github-action-markdown-link-check@v1
